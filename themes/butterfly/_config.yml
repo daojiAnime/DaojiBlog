@@ -80,7 +80,7 @@ index_img: https://i.imgur.com/VeZhnNU.png
 archive_img: https://i.imgur.com/jRNf3kb.png
 
 # Note: tag page, not tags page
-tag_img: https://i.imgur.com/jRNf3kb.png  
+tag_img: https://i.imgur.com/jRNf3kb.png
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -88,7 +88,7 @@ tag_img: https://i.imgur.com/jRNf3kb.png
 tag_per_img: https://i.imgur.com/jRNf3kb.png
 
 # Note: category page, not categories page
-category_img: https://i.imgur.com/jRNf3kb.png 
+category_img: https://i.imgur.com/jRNf3kb.png
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -817,7 +817,7 @@ cover:
     - https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/stripe_payments_o7aw.svg
     - https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/features_overview_jg7a.svg
     - https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/house_searching_n8mp.svg
-    - https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/happy_news_hxmt.svg
+    - https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/c
     - https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/personal_notes_8n63.svg
     - https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/typewriter_i8xd.svg
     - https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/interview_rmcf.svg
@@ -869,7 +869,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: false
-  subtitle: 'Page Not Found'
+  subtitle: "Page Not Found"
   background: /img/error-page.png
 
 post_meta:
@@ -1094,7 +1094,7 @@ aside:
     # The title shows the series name
     series_title: false
     # Order by title or date
-    orderBy: 'date'
+    orderBy: "date"
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
   card_webinfo:
@@ -1124,9 +1124,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: "簡"
 
 # Read Mode
 readmode: true
@@ -1367,7 +1367,7 @@ facebook_comments:
 # https://github.com/imaegoo/twikoo
 twikoo:
   envId: https://daoji-twikoo.netlify.app/.netlify/functions/twikoo
-  region: 
+  region:
   # Use Twikoo visitor count as the page view count
   visitor: false
   option:
@@ -1608,7 +1608,7 @@ canvas_fluttering_ribbon:
 canvas_nest:
   enable: false
   # Color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
-  color: '0,0,255'
+  color: "0,0,255"
   # The opacity of line (0~1)
   opacity: 0.7
   # The z-index property of the background
@@ -1657,7 +1657,7 @@ lightbox:
 series:
   enable: false
   # Order by title or date
-  orderBy: 'title'
+  orderBy: "title"
   # Sort of order. 1, asc for ascending; -1, desc for descending
   order: 1
   number: true
@@ -1687,16 +1687,16 @@ chartjs:
   # The default settings are only used when the MD syntax is not specified.
   # General font color for the chart
   fontColor:
-    light: 'rgba(0, 0, 0, 0.8)'
-    dark: 'rgba(255, 255, 255, 0.8)'
+    light: "rgba(0, 0, 0, 0.8)"
+    dark: "rgba(255, 255, 255, 0.8)"
   # General border color for the chart
   borderColor:
-    light: 'rgba(0, 0, 0, 0.1)'
-    dark: 'rgba(255, 255, 255, 0.2)'
+    light: "rgba(0, 0, 0, 0.1)"
+    dark: "rgba(255, 255, 255, 0.2)"
   # Background color for scale labels on radar and polar area charts
   scale_ticks_backdropColor:
-    light: 'transparent'
-    dark: 'transparent'
+    light: "transparent"
+    dark: "transparent"
 
 # Note - Bootstrap Callout
 note:
@@ -1735,19 +1735,12 @@ snackbar:
   enable: false
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
-  bg_light: '#49b1f5'
-  bg_dark: '#1f1f1f'
+  bg_light: "#49b1f5"
+  bg_dark: "#1f1f1f"
 
 # Instant.page
 # https://instant.page/
 instantpage: false
-
-# Pangu - Insert a space between Chinese character and English character
-# https://github.com/vinta/pangu.js
-pangu:
-  enable: true
-  # Specify the field to use pangu (site or post)
-  field: site
 
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
@@ -1782,6 +1775,10 @@ Open_Graph_meta:
     # fb_admins:
     # fb_app_id:
 
+# Structured Data
+# https://developers.google.com/search/docs/guides/intro-structured-data
+structured_data: true
+
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
 
@@ -1790,7 +1787,7 @@ css_prefix: true
 inject:
   head:
     # 背景色自定义 by custom
-     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/daojiAnime/cdn/css/blog/background.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/daojiAnime/cdn/css/blog/background.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
@@ -1853,7 +1850,6 @@ CDN:
     # medium_zoom:
     # mermaid:
     # meting_js:
-    # pangu:
     # prismjs_autoloader:
     # prismjs_js:
     # prismjs_lineNumber_js:
