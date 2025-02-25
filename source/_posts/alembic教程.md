@@ -2,10 +2,10 @@
 title: alembic教程
 tags:
   - alembic
-  - python
+  - Python
   - SQLAlchemy
 categories:
-  - python
+  - Python
 toc: true
 toc_number: true
 abbrlink: 56655

@@ -12,7 +12,7 @@
     "generate": "hexo generate",
     "new": "hexo new",
     "server": "hexo server",
-    "dev": "hexo clean && hexo generate && hexo server"
+    "dev": "hexo clean && hexo generate && hexo server --draft"
   },
   "dependencies": {
     "bluebird": "^3.7.2",

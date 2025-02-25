@@ -3,10 +3,10 @@ title: FastAPI中文教程（一）
 tags:
   - fastapi
   - pydantic
-  - python
+  - Python
   - SQLAlchemy
 categories:
-  - python
+  - Python
   - fastapi
 toc: true
 toc_number: true

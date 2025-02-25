@@ -1,11 +1,11 @@
 ---
 title: Logging用法
 tags:
-  - python
+  - Python
   - log
   - logging
 categories:
-  - python
+  - Python
   - logging
 toc: true
 toc_number: true
