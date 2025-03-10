@@ -1,18 +1,19 @@
 ---
 title: AI断片了吗？探秘大模型在超长对话中的理解能力
-date: 2025-03-10T16:02:00+08:00
-updated: 
-tags: 
+tags:
   - 人工智能
 categories:
   - AI
+toc: true
+toc_number: true
+abbrlink: 25614
+date: 2025-03-10 08:02:00
+updated:
 keywords:
 description:
 top_img:
 comments:
 cover:
-toc: true
-toc_number: true
 toc_style_simple:
 copyright:
 copyright_author:
