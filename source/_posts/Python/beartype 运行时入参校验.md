@@ -1,18 +1,19 @@
 ---
 title: beartype 运行时入参校验
-date: 2025-03-26T15:08:07+08:00
-updated: 
-tags: 
+tags:
   - Python
 categories:
   - Python
+toc: true
+toc_number: true
+abbrlink: 35873
+date: 2025-03-26 07:08:07
+updated:
 keywords:
 description:
 top_img:
 comments:
 cover:
-toc: true
-toc_number: true
 toc_style_simple:
 copyright:
 copyright_author:
