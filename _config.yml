@@ -4,9 +4,9 @@
 
 # Site
 title: 盗计のBlog
-subtitle: 跟我毒，薄雾不，不log
-description: 我在这里记录我的生活，记录我的学习，知识的积累使我自信和满足，感情的沉积使我成长和强大。我的博客只记录我想记录的东西。
-keywords: 盗计,Daoji,Java,C#,Shell,Linux,Android
+subtitle: 探索AI与编程技巧的学习分享
+description: 探索AI与编程技术的博客，包含深度分析与实用工具解决方案，让学习更有效率。加入我们一起成长！
+keywords: Agent, RAG, LLM, MCP, Python类型检查, AI, 大模型, Golang面试题, CSS布局, 免签支付方案, 数据验证工具, 长上下文对话
 author: Daoji
 language: zh-CN
 timezone: Asia/Shanghai
@@ -151,7 +151,7 @@ feed:
   template:
 include:
   - .nojekyll
-  
+
 # 比如，一个页面的永久链接是 http://example.com/foo/bar/index.html
 pretty_urls:
   trailing_index: false
