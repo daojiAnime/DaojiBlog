@@ -155,4 +155,5 @@ include:
 # 比如，一个页面的永久链接是 http://example.com/foo/bar/index.html
 pretty_urls:
   trailing_index: false
+  trailing_html: false
 # 此时页面的永久链接会变为 http://example.com/foo/bar/
