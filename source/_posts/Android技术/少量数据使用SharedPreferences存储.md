@@ -1,12 +1,18 @@
 ---
-title: 少量数据使用SharedPreferences存储
+title: Android数据存储：SharedPreferences使用详解
 toc: false
 tags:
   - Android
+  - SharedPreferences
+  - 数据存储
+  - 键值对
 abbrlink: 42127
 date: 2019-01-23 09:42:30
+updated:
 categories:
-description:
+  - Android技术
+description: 本文详细介绍了Android中用于存储少量数据的SharedPreferences的使用方法。内容包括如何获取SharedPreferences对象的三种方式，以及如何通过SharedPreferences.Editor进行数据的存入和读取操作。
+keywords: Android, SharedPreferences, 数据持久化, 键值对存储, getSharedPreferences, getPreferences, apply, commit, Android开发
 ---
 
 ![](https://ws1.sinaimg.cn/large/e3bf8736gy1fzgecpyfuvj21900u01kz.jpg)

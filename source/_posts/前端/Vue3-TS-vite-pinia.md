@@ -1,16 +1,21 @@
 ---
-title: Vue3+TS+vite+pinia
+title: Vue 3 + TypeScript + Vite + Pinia 项目搭建指南
 tags:
-  - blog
+  - Vue3
+  - TypeScript
+  - Vite
+  - Pinia
+  - 前端
 categories:
   - 前端
+  - Vue
 toc: true
 toc_number: true
 abbrlink: 15671
 date: 2023-02-20 06:56:34
 updated:
-keywords:
-description:
+keywords: Vue3, TypeScript, Vite, Pinia, 前端框架, 项目搭建, node.js, nvm, Volar, npm init
+description: 快速上手指南：使用Vue 3, TypeScript, Vite, Pinia搭建现代前端项目。涵盖必备VSCode插件(Volar)、Node.js环境(nvm)及通过npm init vue@latest创建项目的完整流程。
 top_img:
 comments:
 cover:

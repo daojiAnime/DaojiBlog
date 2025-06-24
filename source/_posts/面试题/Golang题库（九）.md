@@ -1,17 +1,33 @@
 ---
-title: Golang题库（九）
+title: Golang面试题详解（九）：内存模型、深浅拷贝与并发安全
 tags:
-  - 面试题
-  - Go
+  - Golang
+  - Go面试题
+  - 内存模型
+  - mheap
+  - mcache
+  - mcentral
+  - 深拷贝
+  - 浅拷贝
+  - Slice
+  - Map
+  - Channel
+  - 并发安全
+  - 线程安全
+  - make
+  - new
 categories:
+  - Golang
   - 面试题
+  - 内存管理
+  - 并发编程
 toc: true
 toc_number: true
 abbrlink: 19444
 date: 2023-07-04 21:28:02
 updated:
-keywords:
-description:
+keywords: Go, Golang, 内存模型, 内存分配, mheap, mcache, 深拷贝, 浅拷贝, copy, append, Slice, Map, Channel, 并发安全, 线程安全, make, new, Go面试题
+description: 本文为 Golang 面试题系列第九篇，深度拆解了 Go 语言的内存模型，包括 Span、mcache、mcentral、mheap 的三级管理结构和对象分配流程。同时详细探讨了深拷贝与浅拷贝的区别、实现方式，并辨析了 Slice、Map、Channel 的并发安全性问题。
 top_img:
 comments:
 cover:

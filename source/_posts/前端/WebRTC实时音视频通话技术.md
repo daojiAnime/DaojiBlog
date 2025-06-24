@@ -1,9 +1,15 @@
 ---
-title: WebRTC实时音视频通话技术(基础篇)
+title: WebRTC实时音视频通话技术入门指南
 tags:
   - WebRTC
+  - 实时通信
+  - 音视频
+  - P2P
+  - 前端
+  - JavaScript
 categories:
   - 前端
+  - WebRTC
 toc: true
 toc_number: true
 top_img: >-
@@ -11,8 +17,8 @@ top_img: >-
 abbrlink: 35158
 date: 2023-02-28 17:00:32
 updated:
-keywords:
-description: WebRTC 由用于 Web 实时通信的 JavaScript API 和一组通信协议构成，支持网络上的任何已连接设备成为 Web 上潜在的通信端点。
+keywords: WebRTC, 实时通信, 音视频, JavaScript API, RTCPeerConnection, SDP, ICE, STUN, TURN, 信令服务器, P2P, 前端开发
+description: WebRTC入门指南，介绍其架构、核心原理（SDP, ICE, STUN/TURN）及通信流程。通过讲解RTCPeerConnection等Web API，教你用JavaScript实现浏览器端P2P实时音视频通话。
 comments: 注释
 cover:
 toc_style_simple:

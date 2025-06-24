@@ -1,12 +1,19 @@
 ---
-title: Android studio如何用GIF图作为背景
+title: Android Studio教程：如何使用GIF图片作为应用背景
 tags:
   - Android
+  - GIF
+  - Android Studio
+  - UI开发
+  - 第三方库
 toc: false
 abbrlink: 53646
 date: 2018-08-08 21:07:00
+updated:
 categories:
-description:
+  - Android技术
+description: 本教程详细介绍了如何在Android Studio项目中使用GIF图片作为应用背景。通过引入 pl.droidsonroids.gif:android-gif-drawable 第三方库和使用 GifImageView 控件，轻松实现动态背景效果。
+keywords: Android, GIF背景, Android Studio, pl.droidsonroids.gif, GifImageView, 动态背景, Android UI, 第三方依赖
 ---
 ![](https://ws1.sinaimg.cn/large/e3bf8736ly1fypyrvuet2j22lo1qgnpj.jpg)
 

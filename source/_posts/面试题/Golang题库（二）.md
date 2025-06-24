@@ -1,17 +1,24 @@
 ---
-title: Golang题库（二）
+title: Golang面试题详解（二）：GMP模型、Channel底层原理及Go与Java对比
 tags:
-  - 面试题
-  - Go
+  - Golang
+  - Go面试题
+  - GMP
+  - 协程调度
+  - Channel
+  - hchan
+  - Go与Java
 categories:
+  - Golang
   - 面试题
+  - GMP模型
 toc: true
 toc_number: true
 abbrlink: 30645
 date: 2023-06-20 18:44:21
 updated:
-keywords:
-description:
+keywords: Go, Golang, GMP, Goroutine, 协程, 调度器, Channel, hchan, Go与Java对比, Go面试题
+description: 本文为 Golang 面试题系列第二篇，深入探讨了 Go 语言核心的 GMP 调度模型、Channel 的底层数据结构(hchan)与实现原理，并详细对比了 Go 与 Java 在函数重载、性能、并发模型及继承等方面的关键差异。
 top_img:
 comments:
 cover:

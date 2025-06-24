@@ -3,10 +3,18 @@ title: Python中lambda的使用，与它的三个好基友介绍！
 toc: false
 tags:
   - Python
+  - lambda
+  - map
+  - filter
+  - reduce
+  - 函数式编程
 abbrlink: 18713
 date: 2020-04-28 21:56:39
+updated:
 categories:
-description:
+  - Python
+description: 详细介绍Python中匿名函数lambda的用法，并结合其三个强大的伙伴`map`、`filter`和`reduce`函数，展示了如何通过函数式编程风格编写出更简洁、更Pythonic的代码，以高效处理序列数据。
+keywords: Python, lambda, 匿名函数, map, filter, reduce, 函数式编程
 ---
 
 ### 匿名函数lambda

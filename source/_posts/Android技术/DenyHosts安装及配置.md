@@ -1,12 +1,20 @@
 ---
-title: DenyHosts安装及配置
+title: 使用DenyHosts防止SSH暴力破解的安装与配置教程
 tags:
   - Linux
+  - SSH
+  - DenyHosts
+  - 网络安全
+  - 服务器运维
 toc: false
 abbrlink: 7680
 date: 2018-04-15 18:27:00
+updated:
 categories:
-description:
+  - Linux
+  - 网络安全
+description: 本教程详细介绍了如何在Linux系统上安装和配置DenyHosts，一个用于防止SSH暴力破解的实用工具。内容涵盖了从下载、安装、配置（如日志路径、屏蔽时间、阈值设置）到启动服务的完整步骤。
+keywords: DenyHosts, SSH, 暴力破解, Linux安全, 服务器防护, hosts.deny, chkconfig, daemon-control, 网络安全
 ---
 ![](https://ws1.sinaimg.cn/large/e3bf8736ly1fypzd8dhstj20zk0npe81.jpg)
 
@@ -49,11 +57,11 @@ SECURE_LOG = /var/log/secure                  #ssh 日志文件，redhat系列�
 ```shell
 HOSTS_DENY = /etc/hosts.deny                 #控制用户登陆的文件
 PURGE_DENY = 30m                                  #过多久后清除已经禁止的，设置为30分钟；
-# ‘m’ = minutes
-# ‘h’ = hours
-# ‘d’ = days
-# ‘w’ = weeks
-# ‘y’ = years
+# 'm' = minutes
+# 'h' = hours
+# 'd' = days
+# 'w' = weeks
+# 'y' = years
 BLOCK_SERVICE = sshd                           #禁止的服务名，当然DenyHost不仅仅用于SSH服务
 DENY_THRESHOLD_INVALID = 1             #允许无效用户失败的次数
 DENY_THRESHOLD_VALID = 3                 #允许普通用户登陆失败的次数

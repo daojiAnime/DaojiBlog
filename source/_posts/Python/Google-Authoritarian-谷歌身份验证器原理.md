@@ -1,17 +1,22 @@
 ---
 title: Google Authoritarian/谷歌身份验证器原理
 tags:
-  - 爬虫
-  - Mac验证算法
+  - Python
+  - TOTP
+  - 谷歌身份验证器
+  - HMAC
+  - 安全
+  - 动态口令
 categories:
   - Python
+  - 安全
 toc: true
 toc_number: true
 abbrlink: 2984
 date: 2022-11-06 09:26:57
 updated:
-keywords:
-description:
+keywords: TOTP, Google Authenticator, 谷歌身份验证器, Python, HMAC, SHA256, 双因素认证, 动态口令
+description: 深入解析谷歌身份验证器背后的TOTP（基于时间的一次性密码）算法原理。文章详细介绍了TOTP的计算公式、时间计数器TC的生成以及Truncate函数的实现细节，并提供了一份完整的Python实现代码。
 top_img: https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/night-min.jpg
 comments:
 cover: https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/night-min.jpg

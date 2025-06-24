@@ -1,12 +1,20 @@
 ---
-title: HTML网页调用网易云音乐播放器代码
+title: 如何在HTML网页中嵌入网易云音乐播放器
 toc: false
 tags:
+  - HTML
+  - iframe
+  - 网易云音乐
+  - 网页嵌入
   - 前端
 abbrlink: 2893
 date: 2020-05-02 10:22:06
+updated:
 categories:
-description:
+  - 前端
+  - HTML
+keywords: HTML, iframe, 网易云音乐, 音乐播放器, 嵌入代码, 单曲播放, 歌单播放, 网页开发
+description: 本文提供了在HTML网页中通过iframe嵌入网易云音乐播放器的详细代码示例和参数说明，包括如何实现单曲播放和歌单列表播放，并解释了如何自定义播放器宽度、高度及是否自动播放。
 ---
 
 ### 表现形式一：单曲播放

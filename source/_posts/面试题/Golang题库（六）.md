@@ -1,17 +1,28 @@
 ---
-title: Golang题库（六）
+title: Golang面试题详解（六）：GMP模型、GC、深浅拷贝及Channel应用
 tags:
-  - 面试题
-  - Go
+  - Golang
+  - Go面试题
+  - GMP
+  - GC
+  - 垃圾回收
+  - 深拷贝
+  - 浅拷贝
+  - Channel
+  - make
+  - new
 categories:
+  - Golang
   - 面试题
+  - GMP模型
+  - 垃圾回收
 toc: true
 toc_number: true
 abbrlink: 40874
 date: 2023-06-26 19:17:17
 updated:
-keywords:
-description:
+keywords: Go, Golang, GMP, 调度模型, GC, 垃圾回收, 三色标记法, 深拷贝, 浅拷贝, Channel, Goroutine, make, new, Go面试题
+description: 本文为 Golang 面试题系列第六篇，详细拆解了 Go 语言核心的 GMP 调度模型，对比了多种 GC 垃圾回收算法，并解释了 Go GC 的触发时机。同时，深入探讨了深拷贝与浅拷贝的区别、Channel 的应用、以及 make 和 new 的不同。
 top_img:
 comments:
 cover:

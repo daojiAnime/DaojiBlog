@@ -2,11 +2,19 @@
 title: Linux抓出背后的木马程序并处理
 tags:
   - Linux
+  - 安全
+  - 木马
+  - 挖矿病毒
+  - 系统安全
 toc: false
 abbrlink: 19424
 date: 2018-07-17 08:49:00
+updated:
 categories:
-description:
+  - Linux
+  - 安全运维
+description: 一篇详细的Linux服务器安全指南，指导用户如何通过`top`命令发现异常进程，定位并分析木马程序（如挖矿病毒），检查和清理恶意的cron计划任务和SSH密钥，最终彻底清除木马并加固系统安全。
+keywords: Linux, 木马查杀, 挖矿病毒, 系统安全, top, crontab, ssh, 进程管理
 ---
 ![](https://tva1.sinaimg.com/large/e3bf8736gy1fyqcp6wozhj225r1fux6s.jpg)
 <!--more-->

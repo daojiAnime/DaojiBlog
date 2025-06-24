@@ -5,6 +5,7 @@ tags:
   - pydantic
   - Python
   - SQLAlchemy
+  - Web开发
 categories:
   - Python
   - fastapi
@@ -13,8 +14,8 @@ toc_number: true
 abbrlink: 180
 date: 2023-03-12 22:13:58
 updated:
-keywords:
-description:
+keywords: FastAPI, Python, Web框架, Pydantic, Starlette, Uvicorn, 异步Web, API开发
+description: FastAPI中文入门教程第一篇。详细介绍了FastAPI框架的优势、安装和基本使用，并深入探讨了其核心特性，如基于Pydantic的数据校验、依赖注入、自动API文档生成等，是学习现代Python Web开发的绝佳起点。
 top_img:
 comments:
 cover:

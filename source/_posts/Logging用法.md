@@ -4,6 +4,7 @@ tags:
   - Python
   - log
   - logging
+  - 日志
 categories:
   - Python
   - logging
@@ -12,8 +13,8 @@ toc_number: true
 abbrlink: 56655
 date: 2023-03-03 11:14:02
 updated:
-keywords:
-description:
+keywords: Python, logging, Logger, 日志模块, Python日志
+description: 本文介绍了Python中`logging`模块的一个实用技巧：如何遍历并打印出当前所有已实例化的Logger对象，方便在复杂项目中调试和管理日志记录器。
 top_img:
 comments:
 cover:

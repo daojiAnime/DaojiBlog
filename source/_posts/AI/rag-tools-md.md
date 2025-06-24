@@ -9,8 +9,8 @@ toc_number: true
 abbrlink: 252
 date: 2025-05-11 22:43:15
 updated:
-keywords:
-description:
+keywords: Agent, RAG, 工具检索, 多智能体, LLM, 长上下文, 路由系统, Tool Calling, LangChain
+description: 本文提出了一套在超长上下文场景下，通过 Agent 使用多工具的解决方案。详细介绍了基于 RAG 的工具检索方案、多 Agent 路由系统设计，通过为工具打标签并分配给专业的 Agent，实现智能路由，以应对大规模工具库的管理和高效调用。
 top_img:
 comments:
 cover:

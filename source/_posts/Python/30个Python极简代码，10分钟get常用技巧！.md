@@ -3,10 +3,16 @@ title: 30个Python极简代码，10分钟get常用技巧！
 toc: true
 tags:
   - Python
+  - 编程技巧
+  - 代码片段
+  - Pythonic
 abbrlink: 34537
 date: 2020-04-28 21:43:24
+updated:
 categories:
-description:
+  - Python
+description: 精选30个Python极简代码片段，涵盖列表处理、字符串操作、字典技巧、函数式编程等常用场景。通过这些一行代码的例子，帮助你快速掌握Pythonic的编程技巧，提升代码效率和可读性。
+keywords: Python, Python技巧, 极简代码, 代码片段, Pythonic, 列表操作, 字符串处理
 ---
 
 ### **1. 重复元素判定**
@@ -103,7 +109,7 @@ chunk([1,2,3,4,5],2)
 
 ### **8. 压缩**
 
-这个方法可以将布尔型的值去掉，例如（False，None，0，“”），它使用 filter() 函数。
+这个方法可以将布尔型的值去掉，例如（False，None，0，""），它使用 filter() 函数。
 
 ```python
 def compact(lst):
@@ -148,7 +154,7 @@ print("My hobbies are: " + ", ".join(hobbies))
 
 ### **12. 元音统计**
 
-以下方法将统计字符串中的元音 (‘a’, ‘e’, ‘i’, ‘o’, ‘u’) 的个数，它是通过正则表达式做的。
+以下方法将统计字符串中的元音 ('a', 'e', 'i', 'o', 'u') 的个数，它是通过正则表达式做的。
 
 ```python
 import re

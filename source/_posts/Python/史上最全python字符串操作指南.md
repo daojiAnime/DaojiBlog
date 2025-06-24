@@ -3,10 +3,17 @@ title: 史上最全python字符串操作指南
 toc: false
 tags:
   - Python
+  - 字符串
+  - 字符串操作
+  - f-string
 abbrlink: 50672
 date: 2020-04-28 23:16:12
+updated:
 categories:
-description:
+  - Python
+  - 基础
+description: 一份史上最全的Python字符串操作指南。详细讲解了字符串的定义、is系列判断方法、内容查找、替换技巧，并深入对比了`%`、`format`以及性能更高的f-string三种格式化输出方式，助你精通字符串处理。
+keywords: Python, 字符串, 字符串处理, 字符串格式化, f-string, isdigit, strip, replace
 ---
 
 ### **字符串的定义**

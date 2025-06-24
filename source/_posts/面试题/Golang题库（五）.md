@@ -1,17 +1,27 @@
 ---
-title: Golang题库（五）
+title: Golang面试题详解（五）：热部署、读写锁、Goroutine与线程
 tags:
-  - 面试题
-  - Go
+  - Golang
+  - Go面试题
+  - 热部署
+  - 灰度发布
+  - RWMutex
+  - 读写锁
+  - Goroutine
+  - 线程
+  - 并发编程
 categories:
+  - Golang
   - 面试题
+  - 系统设计
+  - 并发编程
 toc: true
 toc_number: true
 abbrlink: 55219
 date: 2023-06-25 21:46:12
 updated:
-keywords:
-description:
+keywords: Go, Golang, 热部署, SIGHUP, 读写锁, RWMutex, Goroutine, 线程, Go面试题, 并发
+description: 本文为 Golang 面试题系列第五篇，探讨了 Go 实现服务热部署的多种方案，深入解析了读写锁(RWMutex)的底层实现原理，并给出了使用 Channel 实现两个协程交替打印的经典范例，最后对比了 Goroutine 与线程的本质区别。
 top_img:
 comments:
 cover:

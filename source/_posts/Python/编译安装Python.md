@@ -4,10 +4,17 @@ toc: true
 tags:
   - Python
   - Linux
-description: Linux系统安装Python最新版一般都是要编译安装
+  - 编译安装
+  - pip
+  - 源码安装
+description: 详细介绍了在Linux系统下从源码编译安装Python的完整步骤。内容涵盖安装编译依赖、配置、编译、安装过程，以及后续如何安装最新版pip并配置国内镜像源，是搭建纯净Python环境的必备指南。
 abbrlink: 19621
 date: 2020-04-28 19:58:47
+updated:
 categories:
+  - Python
+  - Linux
+keywords: Python, 编译安装, Linux, 源码安装, gcc, make, pip, 镜像源
 ---
 
 ### 准备：

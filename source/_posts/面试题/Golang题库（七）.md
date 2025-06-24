@@ -1,17 +1,29 @@
 ---
-title: Golang题库（七）
+title: Golang面试题详解（七）：Slice底层、线程安全Map、锁与Map实现
 tags:
-  - 面试题
-  - Go
+  - Golang
+  - Go面试题
+  - Slice
+  - Array
+  - append
+  - sync.Map
+  - 线程安全
+  - Mutex
+  - 可重入锁
+  - Map
+  - hmap
 categories:
+  - Golang
   - 面试题
+  - 数据结构
+  - 并发编程
 toc: true
 toc_number: true
 abbrlink: 41935
 date: 2023-06-27 20:14:45
 updated:
-keywords:
-description:
+keywords: Go, Golang, Slice, Array, append, growslice, 线程安全Map, sync.Map, RWMutex, 可重入锁, map, hmap, bmap, Go面试题, 数据结构
+description: 本文为 Golang 面试题系列第七篇，深入剖析了 Slice 与 Array 的区别、append 及 growslice 的底层扩容逻辑。探讨了实现线程安全 map 的三种方式（读写锁、分片加锁、sync.Map），并解释了 Go 的 Mutex 为何不是可重入锁，最后详细图解了 Go map 的 hmap 和 bmap 底层实现原理。
 top_img:
 comments:
 cover:
@@ -120,7 +132,7 @@ s1 := []int{1, 2}
 ## ⭐go 的锁是可重入的吗？
 
 **不是可重入锁。**
-讨论这个问题前，先解释一下“重入”这个概念。当一个线程获取到锁时，如果没有其他线程拥有这个锁，那么这个线程就会成功获取到这个锁。线程持有这个锁后，其他线程再请求这个锁，其他线程就会进入阻塞等待的状态。
+讨论这个问题前，先解释一下"重入"这个概念。当一个线程获取到锁时，如果没有其他线程拥有这个锁，那么这个线程就会成功获取到这个锁。线程持有这个锁后，其他线程再请求这个锁，其他线程就会进入阻塞等待的状态。
 
 但是如果拥有这个锁的线程再请求这把锁的话，就不会阻塞，而是成功返回，这就是可重入锁。可重入锁也叫做**递归锁**。
 为什么 go 的锁不是可重入锁，因为 Mutex 的实现中，没有记录哪个 goroutine 拥有这把锁。换句话说，我们可以通过
@@ -180,4 +192,4 @@ bmp也就是bucket，由初始化的结构体可知，里面最多存8个key，�
 
 ![image-20220403092625292](https://image-1302243118.cos.ap-beijing.myqcloud.com/img/image-20220403092625292.png)
 
-有一点需要注意：当`map`的`key`和`value`都不是指针，并且`size`都小于 128 字节的情况下，会把 `bmap`标记为不含指针，这样可以避免`gc`时扫描整个`hmap`。尽管如此，但如图所示，`bmap`是有一个`overflow`的字段，该字段是指针类型，这就破坏了`bmap`不含指针的设想，这时会把`overflow`移动到`extra`字段来。
+有一点需要注意：当`map`的`key`和`value`都不是指针，并且`size`都小于 128 字节的情况下，会把 `bmap`标记为不含指针，这样可以避免`gc`时扫描整个`hmap`。尽管如此，但如图所示，`bmap`是有一个`overflow`的字段，该字段是指针类型，这就破坏了`bmap`不含指针的设想，这时会把`overflow`

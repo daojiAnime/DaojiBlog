@@ -3,10 +3,18 @@ title: 来说说__init__.py文件
 toc: false
 tags:
   - Python
+  - __init__.py
+  - 包
+  - 模块
+  - import
 abbrlink: 22682
 date: 2020-04-29 09:52:09
+updated:
 categories:
-description:
+  - Python
+  - 基础
+description: 详细讲解Python中`__init__.py`文件的作用和重要性。内容包括它如何将目录标识为包、在包导入时执行初始化操作，以及如何使用`__all__`变量来控制`from package import *`的行为。
+keywords: Python, __init__.py, Python包, 模块导入, __all__, 命名空间
 ---
 
 当你去看一些 Python 相关的项目时，常常会看到 __init__.py，当你使用某些编辑器创建 Python Package 的时候，它也会自动给你生成一个 __init__.py 文件。

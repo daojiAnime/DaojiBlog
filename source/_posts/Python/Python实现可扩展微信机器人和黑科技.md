@@ -3,10 +3,18 @@ title: Python实现可扩展微信机器人和黑科技
 toc: true
 tags:
   - Python
+  - 微信机器人
+  - itchat
+  - 自动化
+  - OpenCV
 abbrlink: 56855
 date: 2019-05-24 15:30:23
+updated:
 categories:
-description:
+  - Python
+  - 自动化
+description: 本文介绍如何使用Python和itchat框架创建一个功能强大、可扩展的微信机器人。教程包含消息防撤回、自动回复、远程执行CMD命令、调用摄像头拍照等多种黑科技功能的实现代码和解析。
+keywords: Python, 微信机器人, itchat, 自动化, 消息防撤回, OpenCV, 远程控制
 ---
 
 ![](https://tva1.sinaimg.com/large/e3bf8736gy1g3d7qhjp6tj21900u0qv6.jpg)

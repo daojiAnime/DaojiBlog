@@ -1,12 +1,20 @@
 ---
-title: Android常见图片处理框架
+title: Android三大图片加载框架对比：Glide vs Picasso vs Fresco
 tags:
   - Android
+  - Glide
+  - Picasso
+  - Fresco
+  - 图片加载
+  - 性能优化
 toc: false
 abbrlink: 5489
 date: 2018-08-13 19:42:00
+updated:
 categories:
-description:
+  - Android技术
+description: 本文对比分析了Android开发中三种主流的图片加载框架：Glide、Picasso和Fresco。从加载机制、内存管理（LruCache）、性能（OOM避免）以及颜色模式等方面进行了详细比较，帮助开发者选择最适合的图片处理方案。
+keywords: Android图片加载, Glide, Picasso, Fresco, 图片框架对比, OOM, LruCache, 性能优化, Android开发
 ---
 > #### 注意：第三方图片处理框架内部都已经封装了LruCatch，用来处理大图的加载，避免了OOM异常，使用了线程池来管理线程，避免了开启多个线程造成的资源的浪费，对于更新UI，内部也已经封装了Handler来进行线程间通信，将数据发送到UI线程来进行更新UI线程
 

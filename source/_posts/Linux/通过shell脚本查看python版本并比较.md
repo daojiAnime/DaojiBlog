@@ -4,10 +4,17 @@ toc: false
 tags:
   - Python
   - Linux
+  - Shell
+  - 脚本
+  - 版本比较
 abbrlink: 14490
 date: 2020-05-13 21:35:23
+updated:
 categories:
-description:
+  - Linux
+  - Shell编程
+description: 提供一个实用的Shell脚本，用于自动检测并比较本机的Python版本是否满足指定要求。脚本通过解析`python -V`的输出，逐段比较主版本号、次版本号和修订号，是环境检查和自动化部署中的常用技巧。
+keywords: Shell, 脚本, Python, 版本检测, 版本比较, Linux, 自动化脚本
 top_img:
 ---
 

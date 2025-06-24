@@ -2,11 +2,19 @@
 title: 手动编译安装nginx
 toc: false
 tags:
-  - Python
+  - Linux
+  - Nginx
+  - 编译安装
+  - CentOS
+  - Web服务器
 abbrlink: 29613
 date: 2020-05-03 15:42:42
+updated:
 categories:
-description:
+  - Linux
+  - Web服务器
+description: 一篇在CentOS 7系统上手动编译并安装Nginx的详细教程。内容涵盖了安装编译工具、pcre、zlib、openssl等依赖，以及从下载源码到配置、编译、安装的全过程。
+keywords: Nginx, 编译安装, CentOS, Linux, Web服务器, gcc, openssl
 ---
 
 ### 前言

@@ -1,17 +1,24 @@
 ---
-title: Golang题库（四）
+title: Golang面试题详解（四）：Map、Channel、WaitGroup常见陷阱及Struct比较
 tags:
-  - 面试题
-  - Go
+  - Golang
+  - Go面试题
+  - Map
+  - Channel
+  - WaitGroup
+  - Struct
+  - 并发陷阱
 categories:
+  - Golang
   - 面试题
+  - 并发编程
 toc: true
 toc_number: true
 abbrlink: 5389
 date: 2023-06-23 20:55:21
 updated:
-keywords:
-description:
+keywords: Go, Golang, Map, Channel, WaitGroup, Struct, Go面试题, 并发, 陷阱, 引用类型
+description: 本文为 Golang 面试题系列第四篇，解答了 map 作为引用类型的修改问题，分析了向 nil channel 发送数据的阻塞行为，并详细总结了 WaitGroup 使用中的常见陷阱。同时，探讨了 Go struct 的可比较性规则。
 top_img:
 comments:
 cover:

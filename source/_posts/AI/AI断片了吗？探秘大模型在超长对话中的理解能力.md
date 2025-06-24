@@ -9,8 +9,8 @@ toc_number: true
 abbrlink: 25614
 date: 2025-03-10 08:02:00
 updated:
-keywords:
-description:
+keywords: 大模型, LLM, 长上下文, 对话理解, token, 上下文截断, AI断片, ReAct Agent
+description: 本文探讨了大型语言模型在超长对话中出现"断片"或遗忘现象的原因，分析了其背后的技术原理如 token 限制和上下文截断，并介绍了一些解决方案，如上下文摘要提取和针对特定场景（如代码补全）的优化策略。
 top_img:
 comments:
 cover:

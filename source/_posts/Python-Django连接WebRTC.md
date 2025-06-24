@@ -2,16 +2,20 @@
 title: Python Django连接WebRTC
 tags:
   - webrtc
-  - 前端
+  - Python
+  - Django
+  - aiortc
+  - 实时通信
 categories:
-  - 前端
+  - Python
+  - WebRTC
 toc: true
 toc_number: true
 abbrlink: 56655
 date: 2023-03-03 11:14:02
 updated:
-keywords:
-description:
+keywords: Python, Django, WebRTC, aiortc, 实时通信, 视频通话
+description: 本文探讨了如何使用Python及Django框架与WebRTC进行集成，重点介绍了利用`aiortc`这个强大的异步库来实现实时的音视频通信功能。
 top_img:
 comments:
 cover:

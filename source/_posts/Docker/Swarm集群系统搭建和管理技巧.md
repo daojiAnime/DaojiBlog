@@ -4,6 +4,7 @@ tags:
   - 集群
   - Swarm
   - Docker
+  - Portainer
 categories:
   - Docker
 toc: true
@@ -15,8 +16,8 @@ cover: >-
 abbrlink: 31580
 date: 2022-11-24 20:32:52
 updated:
-keywords:
-description:
+keywords: Docker Swarm, Swarm集群, Portainer, Overlay网络, Docker运维, 集群管理
+description: 本文详细介绍了Docker Swarm集群的搭建和管理技巧，包括使用Portainer面板、常用命令、节点管理，并针对Overlay网络问题、节点无响应、内存不足等常见运维问题提供了解决方案。
 comments:
 toc_style_simple:
 copyright:

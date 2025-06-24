@@ -1,13 +1,22 @@
 ---
-title: 解决git/github下载速度缓慢的问题总汇
-toc:
-toc_number:
+title: 解决Git/GitHub下载慢的三个有效方法：淘宝镜像、Gitee与修改hosts
+toc: true
+toc_number: true
 tags:
+  - Git
+  - GitHub
+  - Gitee
+  - 网络优化
+  - hosts
   - 杂项
 abbrlink: 30418
 date: 2020-06-26 07:23:26
+updated:
 categories:
-description:
+  - 工具
+  - 杂项
+description: 本文汇总了三种解决Git和GitHub下载速度缓慢问题的有效方法：通过淘宝镜像下载Git for Windows，利用Gitee（码云）作为代理克隆GitHub项目，以及修改本地hosts文件直接解析IP。
+keywords: GitHub下载慢, Git下载慢, Gitee克隆, GitHub镜像, hosts修改, 加速GitHub, Git for Windows, 网络问题
 ---
 
 官网下载 Git 时，速度几乎是超不过 20KB，解决方法有很多，这里介绍几个简单粗暴的方法。这里使用 windows 系统作为演示，其他系统对号入座即可。

@@ -1,12 +1,19 @@
 ---
-title: Android Studio 3.4.0利用Modelu生成Jar依赖包
+title: Android Studio教程：如何将Module打包成Jar依赖包
 toc: false
 tags:
   - Android
+  - Android Studio
+  - Gradle
+  - Jar
+  - 打包
 abbrlink: 16151
 date: 2019-01-23 12:28:40
+updated:
 categories:
-description:
+  - Android技术
+description: 本教程详细讲解了如何在Android Studio 3.4.0中，通过创建一个Android Library Module，并配置自定义的Gradle任务（makejar），将代码打包成可复用的.jar依赖包。
+keywords: Android Studio, 生成Jar包, Android Library, Module打包, Gradle task, makejar, 依赖包, classes.jar
 ---
 
 ![](https://ws1.sinaimg.cn/large/e3bf8736gy1fzgf0b6s51j21900u01kx.jpg)

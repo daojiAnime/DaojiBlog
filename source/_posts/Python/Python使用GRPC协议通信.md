@@ -1,16 +1,21 @@
 ---
 title: Python使用gRPC协议通信
 tags:
-  - blog
+  - Python
+  - gRPC
+  - Protobuf
+  - 微服务
+  - RPC
 categories:
-  - 未分类
+  - Python
+  - 网络编程
 toc: true
 toc_number: true
 abbrlink: 51030
 date: 2022-11-25 08:45:08
 updated:
-keywords:
-description:
+keywords: Python, gRPC, Protobuf, RPC, 微服务, 异步编程, 网络通信
+description: 一篇关于在Python中使用gRPC协议进行通信的详细教程。内容涵盖gRPC的四种服务模式、Protobuf文件格式定义，并提供了一元模式下同步与异步的完整服务端和客户端实现代码，是学习gRPC的实用指南。
 top_img:
 comments:
 cover:

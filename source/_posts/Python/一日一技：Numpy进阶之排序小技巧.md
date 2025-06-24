@@ -3,10 +3,17 @@ title: 一日一技：Numpy进阶之排序小技巧
 toc: false
 tags:
   - Python
+  - Numpy
+  - 数据分析
+  - 排序
 abbrlink: 14916
 date: 2020-05-02 09:44:29
+updated:
 categories:
-description:
+  - Python
+  - 数据科学
+description: Numpy进阶教程，详细讲解了三种实用的排序函数：`numpy.sort`用于对数组元素进行快速排序，`numpy.argsort`用于获取排序后的索引，以及`numpy.lexsort`用于实现多条件排序，帮助你高效处理数组数据。
+keywords: Python, Numpy, 排序, argsort, lexsort, 数据处理, 科学计算
 ---
 
 Numpy提供了大量用数组操作的函数，其中不乏常见的排序函数。

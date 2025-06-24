@@ -4,6 +4,7 @@ tags:
   - alembic
   - Python
   - SQLAlchemy
+  - 数据库迁移
 categories:
   - Python
 toc: true
@@ -11,8 +12,8 @@ toc_number: true
 abbrlink: 56655
 date: 2023-03-03 11:14:02
 updated:
-keywords:
-description:
+keywords: Alembic, Python, SQLAlchemy, 数据库迁移, 数据库版本控制, Alembic教程
+description: 一篇关于Python数据库迁移工具Alembic的简明教程。内容涵盖了常用的Alembic命令，如`upgrade`、`revision`、`downgrade`等，并解释了各个参数的用途，帮助开发者快速掌握数据库版本控制的基本操作。
 top_img:
 comments:
 cover:

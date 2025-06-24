@@ -1,12 +1,19 @@
 ---
-title: DDoS攻击-Java实现
+title: Java实现DDoS攻击的概念与示例代码
 tags:
-  - Android
+  - Java
+  - DDoS
+  - 网络安全
+  - 多线程
 toc: false
 abbrlink: 27312
 date: 2018-08-16 14:54:00
+updated:
 categories:
-description:
+  - Java
+  - 网络安全
+description: 本文解释了DDoS（分布式拒绝服务）攻击的基本概念，并提供了一个使用Java多线程（ExecutorService）实现的简单DDoS攻击示例代码，用于学习和理解其工作原理。
+keywords: DDoS, Java, 网络安全, 拒绝服务攻击, ExecutorService, 多线程编程, URLConnection, 攻击代码示例
 ---
 ![](https://ws1.sinaimg.cn/large/e3bf8736ly1fypz0k52q6j22i01o01kz.jpg)
 

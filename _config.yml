@@ -120,10 +120,10 @@ deploy:
   branch: master
 # 搜索插件
 search:
-  path: search.xml
+  path: search.json
   field: post
   content: true
-  # template: ./search.xml\
+  format: striptags
 # 音乐插件
 aplayer:
   meting: true

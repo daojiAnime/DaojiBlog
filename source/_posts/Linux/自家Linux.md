@@ -2,11 +2,18 @@
 title: 自家Linux
 tags:
   - Linux
+  - CentOS
+  - 系统配置
+  - Gnome
 toc: false
 abbrlink: 57501
 date: 2018-07-17 08:49:00
+updated:
 categories:
-description:
+  - Linux
+  - 系统管理
+description: 本文记录了在CentOS 7上的一些实用配置技巧，包括如何在Gnome图形界面下解除锁屏，以及如何通过修改`logind.conf`配置文件来管理合上笔记本盖后的系统行为，如防止休眠。
+keywords: Linux, CentOS 7, 系统配置, Gnome, 锁屏, 休眠管理, logind.conf
 ---
 ![](https://ws1.sinaimg.cn/large/e3bf8736gy1fyqgf924gsj21z81bhx6u.jpg)
 <!--more-->
