@@ -1,5 +1,5 @@
 ---
-title: 🧭 Cursor Rules 一页规范
+title: "\U0001F9ED Cursor Rules 一页规范"
 tags:
   - blog
   - 人工智能
@@ -7,10 +7,11 @@ categories:
   - AI
 toc: true
 toc_number: true
+keywords: 'Cursor, 规则, .cursor/rules, .cursorrules, MDC, 约定, 编码规范, 提示词, 规则注入, Hexo'
+description: 一页指南，介绍 Cursor `.cursor/rules/*.mdc` 的编写与使用，涵盖文件结构、匹配与激活机制、常见模式与最佳实践，并附示例模板。
+abbrlink: 56342
 date: 2025-10-14 17:29:26
 updated: 2025-10-14 18:05:00
-keywords: Cursor, 规则, .cursor/rules, .cursorrules, MDC, 约定, 编码规范, 提示词, 规则注入, Hexo
-description: 一页指南，介绍 Cursor `.cursor/rules/*.mdc` 的编写与使用，涵盖文件结构、匹配与激活机制、常见模式与最佳实践，并附示例模板。
 top_img:
 comments:
 cover:
