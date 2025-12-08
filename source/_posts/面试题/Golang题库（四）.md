@@ -16,7 +16,7 @@ toc: true
 toc_number: true
 abbrlink: 5389
 date: 2023-06-23 20:55:21
-updated:
+updated: 2025-12-08
 keywords: Go, Golang, Map, Channel, WaitGroup, Struct, Go面试题, 并发, 陷阱, 引用类型
 description: 本文为 Golang 面试题系列第四篇，解答了 map 作为引用类型的修改问题，分析了向 nil channel 发送数据的阻塞行为，并详细总结了 WaitGroup 使用中的常见陷阱。同时，探讨了 Go struct 的可比较性规则。
 top_img:

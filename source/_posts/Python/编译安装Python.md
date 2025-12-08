@@ -10,7 +10,7 @@ tags:
 description: 详细介绍了在Linux系统下从源码编译安装Python的完整步骤。内容涵盖安装编译依赖、配置、编译、安装过程，以及后续如何安装最新版pip并配置国内镜像源，是搭建纯净Python环境的必备指南。
 abbrlink: 19621
 date: 2020-04-28 19:58:47
-updated:
+updated: 2025-12-08
 categories:
   - Python
   - Linux

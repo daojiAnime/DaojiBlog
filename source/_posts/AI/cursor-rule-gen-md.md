@@ -11,7 +11,7 @@ keywords: 'Cursor, 规则, .cursor/rules, .cursorrules, MDC, 约定, 编码规�
 description: 一页指南，介绍 Cursor `.cursor/rules/*.mdc` 的编写与使用，涵盖文件结构、匹配与激活机制、常见模式与最佳实践，并附示例模板。
 abbrlink: 56342
 date: 2025-10-14 17:29:26
-updated: 2025-10-14 18:05:00
+updated: 2025-12-08
 top_img:
 comments:
 cover:

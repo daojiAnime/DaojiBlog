@@ -22,7 +22,7 @@ toc: true
 toc_number: true
 abbrlink: 52804
 date: 2023-07-05 22:11:49
-updated:
+updated: 2025-12-08
 keywords: Go, Golang, 并发模型, Context, WaitGroup, Channel, GMP, 调度, Goroutine, defer, panic, recover, init, 空结构体, Go面试题
 description: 本文为 Golang 面试题系列第十篇，聚焦于 Go 的并发模型，详细对比了 Channel、WaitGroup、Context 的使用场景。深入探讨了 GMP 调度细节，如 G 的饥饿问题、G/M/P 的数量与关系、以及大规模 Goroutine 的调度策略。同时覆盖了 defer/panic/recover 机制、init 函数执行顺序、空结构体等重要知识点。
 top_img:

@@ -21,7 +21,7 @@ toc: true
 toc_number: true
 abbrlink: 41935
 date: 2023-06-27 20:14:45
-updated:
+updated: 2025-12-08
 keywords: Go, Golang, Slice, Array, append, growslice, 线程安全Map, sync.Map, RWMutex, 可重入锁, map, hmap, bmap, Go面试题, 数据结构
 description: 本文为 Golang 面试题系列第七篇，深入剖析了 Slice 与 Array 的区别、append 及 growslice 的底层扩容逻辑。探讨了实现线程安全 map 的三种方式（读写锁、分片加锁、sync.Map），并解释了 Go 的 Mutex 为何不是可重入锁，最后详细图解了 Go map 的 hmap 和 bmap 底层实现原理。
 top_img:

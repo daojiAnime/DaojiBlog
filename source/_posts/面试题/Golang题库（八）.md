@@ -23,7 +23,7 @@ toc: true
 toc_number: true
 abbrlink: 6059
 date: 2023-07-03 21:27:34
-updated:
+updated: 2025-12-08
 keywords: Go, Golang, GC, 垃圾回收, 三色标记法, GMP, 调度模型, 逃逸分析, 内存管理, Map, Goroutine, Channel, WaitGroup, Mutex, 并发, Go面试题
 description: 本文为 Golang 面试题系列第八篇，全面覆盖了 Go 语言高级面试题。内容包括：Go GC 的三色标记法与混合写屏障、GMP 调度模型中 G 阻塞的处理、内存逃逸分析的原理与场景。同时深入探讨了 map 底层、Goroutine 闭包陷阱、锁的饥饿模式、Channel 的关闭读写等并发核心问题。
 top_img:

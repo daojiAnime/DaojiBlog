@@ -100,3 +100,73 @@ AI, Agent, RAG, LLM, MCP, Python, Golang, FastAPI, Django
 2. 草稿放置于 `source/_drafts/` 目录
 3. 永久链接格式: `posts/:abbrlink.html`
 4. 部署前确保 `hexo clean` 清理缓存
+
+---
+
+## 文章撰写流程
+
+### ⚠️ 重要：必须使用 Hexo 命令创建文章
+
+**禁止直接使用 Write 工具创建文章文件**，必须使用 Hexo 命令，否则会缺少必要的元数据（如 `abbrlink`、主题配置字段等）。
+
+### 创建草稿（推荐流程）
+
+```bash
+# 1. 使用 hexo 命令创建草稿（会自动生成完整的 Front Matter）
+hexo new draft "文章标题"
+
+# 2. 编辑草稿内容
+# 文件位置: source/_drafts/文章标题.md
+
+# 3. 预览草稿
+pnpm run dev
+
+# 4. 发布草稿（移动到 _posts 并生成 abbrlink）
+hexo publish "文章标题"
+```
+
+### 直接创建文章
+
+```bash
+# 直接创建到 _posts 目录
+hexo new post "文章标题"
+# 或
+pnpm run new "文章标题"
+```
+
+### Front Matter 字段说明
+
+使用 Hexo 命令创建的文章会自动包含以下字段：
+
+```yaml
+---
+title: 文章标题
+tags:
+  - blog
+categories:
+  - 未分类
+toc: true
+toc_number: true
+date: 2025-12-08 17:59:42
+updated:
+keywords:
+description:
+top_img:
+comments:
+cover:
+# ... 其他 Butterfly 主题字段
+---
+```
+
+**需要手动补充的字段**：
+- `tags` - 修改为实际标签
+- `categories` - 修改为实际分类
+- `description` - 文章摘要
+- `keywords` - SEO 关键词
+- `updated` - 更新时间
+
+### 内容撰写辅助
+
+- Web Search - 搜索最新资料
+- Context7 - 查阅技术文档
+- 探索项目代码 - 分析技术实现

@@ -9,7 +9,7 @@ tags:
   - import
 abbrlink: 22682
 date: 2020-04-29 09:52:09
-updated:
+updated: 2025-12-08
 categories:
   - Python
   - 基础
@@ -19,7 +19,7 @@ keywords: Python, __init__.py, Python包, 模块导入, __all__, 命名空间
 
 当你去看一些 Python 相关的项目时，常常会看到 __init__.py，当你使用某些编辑器创建 Python Package 的时候，它也会自动给你生成一个 __init__.py 文件。
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095735.png)
+![Python Package 目录结构](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095735.png)
 
 
 
@@ -29,7 +29,7 @@ keywords: Python, __init__.py, Python包, 模块导入, __all__, 命名空间
 
 话不多说，咱们先来创建一下这样的目录：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095803.png)
+![创建三个 Python 子包](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095803.png)
 
 我们在这里面创建了三个 Python 子包，里面都有 __init__ 和 module 的 py 文件。
 
@@ -41,39 +41,39 @@ keywords: Python, __init__.py, Python包, 模块导入, __all__, 命名空间
 
 接着我们进入 Python ，分别来导入这些模块：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095857.png)
+![导入子模块执行顺序](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095857.png)
 
 可以看到，当我们导入父模块中的子模块的时候，它会优先执行父模块中的 init ，接着会执行指定模块中的 init。
 
 当然，只是导入父模块的时候只会执行父模块中的 init：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095906.png)
+![导入父模块执行 init](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095906.png)
 
 也就是说，当我们去 import 一个 Package 的时候，它会隐性的去执行 __init__.py ， 而在 __init__.py 中定义的对象，会被绑定到当前的命名空间里面来。
 
 比如有时候我们会这样去导入一个包下的所有模块，会这样操作：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095917.png)
+![通配符导入包的所有模块](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095917.png)
 
 但这个时候你会发现并没有将相关的子模块导入进来：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095944.png)
+![子模块未被导入](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095944.png)
 
 这时候你可能想到了，可以在父模块中的 __init__.py 做文章，先把它们导入进来不就行了：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095951.png)
+![使用 __all__ 定义导入模块](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429095951.png)
 
 这里的 __all__ 相当于导入 [] 里面定义的模块。
 
 这次再导入：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100000.png)
+![所有子模块成功导入](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100000.png)
 
 可以到，所有子模块就都一并导入进来了。
 
 当然，你也可以在 __init__.py 做一些初始化的操作，比如数据库 session 的创建：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100007.png)
+![在 __init__ 中初始化数据库 session](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100007.png)
 
 其实在 Python3.2 版本之前，定义的 Package 下面一定要有 __init__.py 文件，这样 Python 才知道它是一个 Package，才可以寻找到相关模块的路径从而被 import。
 
@@ -81,17 +81,17 @@ keywords: Python, __init__.py, Python包, 模块导入, __all__, 命名空间
 
 我们把刚刚定义的 __init__ 都给删掉试试
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100015.png)
+![删除 __init__.py 文件](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100015.png)
 
 接着我们在 Python3.8 版本导入看看：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100021.png)
+![Python3.8 成功导入](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100021.png)
 
 可以看到，尽管我们在 package 中没有定义 __init__.py，依然可以导入使用。
 
 以同样的形式，我们在 Python2 中导入看看：
 
-![](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100028.png)
+![Python2 导入失败](https://gitee.com/djgzs_admin/ArticleImg/raw/master/2020/04/29/2020/04/29/20200429100028.png)
 
 可以看到，它被整懵逼了...
 

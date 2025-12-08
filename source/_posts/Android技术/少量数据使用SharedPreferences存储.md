@@ -15,7 +15,7 @@ description: 本文详细介绍了Android中用于存储少量数据的SharedPre
 keywords: Android, SharedPreferences, 数据持久化, 键值对存储, getSharedPreferences, getPreferences, apply, commit, Android开发
 ---
 
-![](https://ws1.sinaimg.cn/large/e3bf8736gy1fzgecpyfuvj21900u01kz.jpg)
+![SharedPreferences 数据存储机制](https://ws1.sinaimg.cn/large/e3bf8736gy1fzgecpyfuvj21900u01kz.jpg)
 
 <!--more-->
 

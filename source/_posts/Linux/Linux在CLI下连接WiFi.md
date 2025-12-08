@@ -9,14 +9,14 @@ tags:
 toc: false
 abbrlink: 58864
 date: 2018-06-28 19:29:00
-updated:
+updated: 2025-12-08
 categories:
   - Linux
   - 网络配置
 description: 一篇关于如何在Linux命令行界面（CLI）下连接WiFi的实用教程。文章介绍了使用`nmcli`命令管理网络，包括查看设备状态、开启WiFi、扫描可用网络以及连接到指定WiFi网络的详细步骤。
 keywords: Linux, CLI, WiFi, 无线网络, nmcli, NetworkManager, 命令行联网
 ---
-![](https://ws1.sinaimg.cn/large/e3bf8736gy1fyqcfaxx0dj22801hcb2e.jpg)
+![命令行连接 WiFi 网络](https://ws1.sinaimg.cn/large/e3bf8736gy1fyqcfaxx0dj22801hcb2e.jpg)
 <!--more-->
 
 系统安装好后，有线与线连接都可以使用， 切换联网方式执行要使用"`ifdown 对应的网卡名称`"或者"`ifup 对应的网卡名称`"这两条命令即可。

@@ -8,7 +8,7 @@ tags:
   - Pythonic
 abbrlink: 34537
 date: 2020-04-28 21:43:24
-updated:
+updated: 2025-12-08
 categories:
   - Python
 description: 精选30个Python极简代码片段，涵盖列表处理、字符串操作、字典技巧、函数式编程等常用场景。通过这些一行代码的例子，帮助你快速掌握Pythonic的编程技巧，提升代码效率和可读性。

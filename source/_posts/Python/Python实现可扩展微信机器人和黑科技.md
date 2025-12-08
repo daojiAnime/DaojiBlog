@@ -9,7 +9,7 @@ tags:
   - OpenCV
 abbrlink: 56855
 date: 2019-05-24 15:30:23
-updated:
+updated: 2025-12-08
 categories:
   - Python
   - 自动化
@@ -17,7 +17,7 @@ description: 本文介绍如何使用Python和itchat框架创建一个功能强�
 keywords: Python, 微信机器人, itchat, 自动化, 消息防撤回, OpenCV, 远程控制
 ---
 
-![](https://tva1.sinaimg.com/large/e3bf8736gy1g3d7qhjp6tj21900u0qv6.jpg)
+![Python 微信机器人实现](https://tva1.sinaimg.com/large/e3bf8736gy1g3d7qhjp6tj21900u0qv6.jpg)
 
 <!-- more-->
 

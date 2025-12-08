@@ -9,7 +9,7 @@ tags:
   - Fabric
 abbrlink: 22812
 date: 2020-05-02 09:46:55
-updated:
+updated: 2025-12-08
 categories:
   - Python
   - 工具

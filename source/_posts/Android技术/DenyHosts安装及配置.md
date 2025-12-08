@@ -16,7 +16,7 @@ categories:
 description: 本教程详细介绍了如何在Linux系统上安装和配置DenyHosts，一个用于防止SSH暴力破解的实用工具。内容涵盖了从下载、安装、配置（如日志路径、屏蔽时间、阈值设置）到启动服务的完整步骤。
 keywords: DenyHosts, SSH, 暴力破解, Linux安全, 服务器防护, hosts.deny, chkconfig, daemon-control, 网络安全
 ---
-![](https://ws1.sinaimg.cn/large/e3bf8736ly1fypzd8dhstj20zk0npe81.jpg)
+![DenyHosts 防护 SSH 暴力破解](https://ws1.sinaimg.cn/large/e3bf8736ly1fypzd8dhstj20zk0npe81.jpg)
 
 <!--more-->
 

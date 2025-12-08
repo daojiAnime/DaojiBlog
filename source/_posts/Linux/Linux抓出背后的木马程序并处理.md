@@ -9,20 +9,20 @@ tags:
 toc: false
 abbrlink: 19424
 date: 2018-07-17 08:49:00
-updated:
+updated: 2025-12-08
 categories:
   - Linux
   - 安全运维
 description: 一篇详细的Linux服务器安全指南，指导用户如何通过`top`命令发现异常进程，定位并分析木马程序（如挖矿病毒），检查和清理恶意的cron计划任务和SSH密钥，最终彻底清除木马并加固系统安全。
 keywords: Linux, 木马查杀, 挖矿病毒, 系统安全, top, crontab, ssh, 进程管理
 ---
-![](https://tva1.sinaimg.com/large/e3bf8736gy1fyqcp6wozhj225r1fux6s.jpg)
+![Linux 木马程序排查处理](https://tva1.sinaimg.com/large/e3bf8736gy1fyqcp6wozhj225r1fux6s.jpg)
 <!--more-->
 
 ### ·通过top命令查看进程情况
 
-    top  
-![](https://yqfile.alicdn.com/3fc0dc0046bf64d22c788b86063c20378756710b.png)  	
+    top
+![top 命令查看异常进程](https://yqfile.alicdn.com/3fc0dc0046bf64d22c788b86063c20378756710b.png)
 获取`pid`后可以用`kill [PID]`来关闭进程	
 ​	
 
@@ -30,20 +30,20 @@ keywords: Linux, 木马查杀, 挖矿病毒, 系统安全, top, crontab, ssh, �
 
 通过执行`ll /proc/$PID/exe`，($PID即进程ID)可获得异常进程的目录	
 
-![](https://yqfile.alicdn.com/249ac3353c4e4dc8482f1df07e1b059cb420d78a.png)	
+![查看进程所在目录](https://yqfile.alicdn.com/249ac3353c4e4dc8482f1df07e1b059cb420d78a.png)
 
 此程序一般是由计划任务产生的，Linux系统中默认创建了计划任务后会在/var/spool/cron目录下创建对应用户的计划任务脚本，执行ls /var/spool/cron 查询一下系统中是否有异常的计划任务脚本程序。 
 可以看到，在此目录下有1个root的计划任务脚本和一个异常的目录crontabs（默认情况下不会有此目录，用户创建计划任务也不会产生此目录） 
 
-![](https://yqfile.alicdn.com/add7471c149fe18e39d9048bc65caace21701c25.png)  
+![异常计划任务目录](https://yqfile.alicdn.com/add7471c149fe18e39d9048bc65caace21701c25.png)
 
 查看脚本内容，有一个每隔10分钟便会通过curl下载执行的脚本程序（crontabs目录下为同样内容的计划任务）  
 
-![](https://yqfile.alicdn.com/d89bc571d8ba01a1f9eab99af0112674c67196aa.png)
+![计划任务脚本内容](https://yqfile.alicdn.com/d89bc571d8ba01a1f9eab99af0112674c67196aa.png)
 
 手动将脚本内容下载到本地，脚本内容如下
 
-![](https://yqfile.alicdn.com/38ba3d1db70e742993f16bd8c0cf155422fc58a8.png)
+![恶意脚本源码分析](https://yqfile.alicdn.com/38ba3d1db70e742993f16bd8c0cf155422fc58a8.png)
 
 #### 分析此脚本，主要进行了如下修改
 
@@ -63,16 +63,16 @@ keywords: Linux, 木马查杀, 挖矿病毒, 系统安全, top, crontab, ssh, �
 4、删除黑客创建的伪装程序ntp  
 执行ls /etc/init.d/可以看到系统中是由对应的伪装程序的  
 
-![](https://yqfile.alicdn.com/72eede7da7d1bfb0c1c32f8c1e99993408a0cb70.png)
+![伪装程序列表](https://yqfile.alicdn.com/72eede7da7d1bfb0c1c32f8c1e99993408a0cb70.png)
 
 通过chkconfig --list ntp 可以看到此程序默认设置的是开机自动启动
 
-![](https://yqfile.alicdn.com/ade809df30ef7d688b551b2b0b559149a5800571.png)
+![ntp 程序开机自启设置](https://yqfile.alicdn.com/ade809df30ef7d688b551b2b0b559149a5800571.png)
 
 如果此程序不进行清除，即使删除了minerd程序并且杀死了对应的进程，过一会系统还会重新创建minerd程序，并产生新的进程  
 查询一下当前系统中是否有ntp进程，可以看到ntp进程是通过/usr/sbin/ntp程序产生，因此需要把对应的执行程序也进行删除
 
-![](https://yqfile.alicdn.com/1199403d7e19bd225e5c65525a6ed8ce6bc1100f.png)
+![ntp 进程详情](https://yqfile.alicdn.com/1199403d7e19bd225e5c65525a6ed8ce6bc1100f.png)
 
 总结一下删除伪装程序的操作步骤  
 
@@ -90,13 +90,13 @@ rm -rf /usr/sbin/ntp （此路径要根据具体的查询数据确定，实际�
 
 因此要删除这两个文件，执行`rm -rf KHK75NEOiq33 minerd` 即可
 
-![](https://yqfile.alicdn.com/091056648e466a2f53301188b13de33b86039709.png)
+![删除异常程序文件](https://yqfile.alicdn.com/091056648e466a2f53301188b13de33b86039709.png)
 
 `kill -9 $PID` 杀死对应的进程ID 
 
 通过ps命令查询一下minerd对应的进程详细情况
 ​	ps -aux|grep minerd
-![](https://yqfile.alicdn.com/c92e1ee20ba41c253bb6c3786919e5439e469edc.png)
+![minerd 进程信息](https://yqfile.alicdn.com/c92e1ee20ba41c253bb6c3786919e5439e469edc.png)
 
 ### ·修改SSH端口以及采用（字母+符号+数字=密码）的方式登录
 

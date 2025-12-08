@@ -16,7 +16,7 @@ top_img: >-
   https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1024px-WebRTC_Logo.svg.png
 abbrlink: 35158
 date: 2023-02-28 17:00:32
-updated:
+updated: 2025-12-08
 keywords: WebRTC, 实时通信, 音视频, JavaScript API, RTCPeerConnection, SDP, ICE, STUN, TURN, 信令服务器, P2P, 前端开发
 description: WebRTC入门指南，介绍其架构、核心原理（SDP, ICE, STUN/TURN）及通信流程。通过讲解RTCPeerConnection等Web API，教你用JavaScript实现浏览器端P2P实时音视频通话。
 comments: 注释

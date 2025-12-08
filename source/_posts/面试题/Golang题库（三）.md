@@ -17,7 +17,7 @@ toc: true
 toc_number: true
 abbrlink: 31692
 date: 2023-06-22 21:06:15
-updated:
+updated: 2025-12-08
 keywords: Go, Golang, Channel, 锁, Mutex, 并发, 死锁, Slice, Array, Go面试题
 description: 本文为 Golang 面试题系列第三篇，深入探讨了无缓冲 Channel 的死锁问题，对比了 Channel 与锁 (Mutex) 的使用场景与区别，并总结了 Channel 在任务超时、事件驱动、并发控制等多种应用场景。最后，详细对比了 Slice 和 Array 的核心差异。
 top_img:

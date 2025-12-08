@@ -6,11 +6,12 @@ tags:
   - Vue
 abbrlink: 6962
 date: 2020-06-30 11:43:08
-updated:
+updated: 2025-12-08
 categories:
   - 前端
   - Vue
 description: 深入探讨Vue中 keep-alive 组件的使用方法和多种缓存策略。内容涵盖了利用路由meta信息、include/exclude属性以及结合Vuex动态管理缓存列表的多种实践方案，帮助你灵活实现组件状态保持，优化用户体验。
+keywords: Vue, keep-alive, 组件缓存, 路由缓存, Vuex, meta标签, include, exclude, 状态管理
 katex:
 aside:
 aplayer:

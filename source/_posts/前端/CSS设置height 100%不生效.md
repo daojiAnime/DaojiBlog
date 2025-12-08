@@ -12,7 +12,7 @@ toc: true
 toc_number: true
 abbrlink: 44550
 date: 2024-02-22 09:40:38
-updated:
+updated: 2025-12-08
 keywords: CSS, height, 100%, 不生效, flexbox, grid, 垂直居中, 布局, 前端
 description: 本文详细解释了为什么在父元素没有固定高度时，子元素设置 height 100% 会失效，并提供了使用 Flexbox (display flex) 和 Grid 布局作为现代CSS解决方案，以实现元素高度的动态填充。
 top_img:

@@ -15,7 +15,7 @@ categories:
 description: 本教程详细介绍了如何在Android Studio项目中使用GIF图片作为应用背景。通过引入 pl.droidsonroids.gif:android-gif-drawable 第三方库和使用 GifImageView 控件，轻松实现动态背景效果。
 keywords: Android, GIF背景, Android Studio, pl.droidsonroids.gif, GifImageView, 动态背景, Android UI, 第三方依赖
 ---
-![](https://ws1.sinaimg.cn/large/e3bf8736ly1fypyrvuet2j22lo1qgnpj.jpg)
+![Android Studio GIF 动态背景效果](https://ws1.sinaimg.cn/large/e3bf8736ly1fypyrvuet2j22lo1qgnpj.jpg)
 
 <!--more-->
 

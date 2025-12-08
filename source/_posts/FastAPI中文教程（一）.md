@@ -50,7 +50,7 @@ aside:
 
 至文章编写时间，目前Python Web框架从性能上来讲，FastAPI基于Starlette开发，处于Python Web开发框架的最优选。据调查（根据目前数个Web[框架基准测试排行网站](https://www.techempower.com/benchmarks/#section=data-r21)），从基准测试来说，FastAPI能达到同时13000并发请求时，同为Python框架的Django、Flask只能达到1k-2k。但是如果要同Golang的GoFrame、Gin、Echo、Iris等框架轻松实现10W+请求数相比，不足为论。如果用Golang，非常推荐GoFrame框架，文档齐全、社区活跃、性能优秀，并且是国人开源并积极维护。
 
-![](https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/20230312224716.png)![](https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/20230312224755.png)
+![Web 框架性能对比](https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/20230312224716.png)![FastAPI 基准测试结果](https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/20230312224755.png)
 
 
 
@@ -60,9 +60,9 @@ aside:
 
 
 
-![](https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/20230312225035.png)
+![Django-Ninja 框架性能测试](https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/20230312225035.png)
 
-![](https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/20230312225257.png)
+![Swoole 框架并发性能](https://cdn.jsdelivr.net/gh/daojiAnime/cdn@master/img/20230312225257.png)
 
 Swoole框架是由C语言编写的高性能请求框架，单论请求数来说，能够实现同比30w+的并发请求数。但是真正运营于web开发，需要编写路由功能、请求解析、数据校验、数据库交互等，如laravel-swoole也才16000并发请求数。
 

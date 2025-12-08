@@ -10,7 +10,7 @@ tags:
 toc: false
 abbrlink: 43992
 date: 2018-10-09 16:08:00
-updated:
+updated: 2025-12-08
 categories:
   - Linux
   - Shell编程

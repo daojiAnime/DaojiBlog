@@ -16,7 +16,7 @@ toc: true
 toc_number: true
 abbrlink: 30645
 date: 2023-06-20 18:44:21
-updated:
+updated: 2025-12-08
 keywords: Go, Golang, GMP, Goroutine, 协程, 调度器, Channel, hchan, Go与Java对比, Go面试题
 description: 本文为 Golang 面试题系列第二篇，深入探讨了 Go 语言核心的 GMP 调度模型、Channel 的底层数据结构(hchan)与实现原理，并详细对比了 Go 与 Java 在函数重载、性能、并发模型及继承等方面的关键差异。
 top_img:

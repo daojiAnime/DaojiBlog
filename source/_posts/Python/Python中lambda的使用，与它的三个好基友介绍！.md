@@ -10,7 +10,7 @@ tags:
   - 函数式编程
 abbrlink: 18713
 date: 2020-04-28 21:56:39
-updated:
+updated: 2025-12-08
 categories:
   - Python
 description: 详细介绍Python中匿名函数lambda的用法，并结合其三个强大的伙伴`map`、`filter`和`reduce`函数，展示了如何通过函数式编程风格编写出更简洁、更Pythonic的代码，以高效处理序列数据。

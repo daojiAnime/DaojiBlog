@@ -8,7 +8,7 @@ tags:
   - f-string
 abbrlink: 50672
 date: 2020-04-28 23:16:12
-updated:
+updated: 2025-12-08
 categories:
   - Python
   - 基础

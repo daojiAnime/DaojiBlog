@@ -16,7 +16,7 @@ description: 本教程详细讲解了如何在Android Studio 3.4.0中，通过�
 keywords: Android Studio, 生成Jar包, Android Library, Module打包, Gradle task, makejar, 依赖包, classes.jar
 ---
 
-![](https://ws1.sinaimg.cn/large/e3bf8736gy1fzgf0b6s51j21900u01kx.jpg)
+![Android Studio Module 打包成 Jar](https://ws1.sinaimg.cn/large/e3bf8736gy1fzgf0b6s51j21900u01kx.jpg)
 
 <!--more-->
 

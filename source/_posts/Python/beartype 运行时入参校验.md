@@ -13,7 +13,7 @@ toc: true
 toc_number: true
 abbrlink: 35873
 date: 2025-03-26 07:08:07
-updated:
+updated: 2025-12-08
 keywords: beartype, pydantic, Python, 运行时类型检查, 数据验证, PEP 484
 description: 详细对比了Python中两大运行时类型检查工具`beartype`和`pydantic`的区别和适用场景。通过功能分析和代码示例，帮助你理解它们在类型检查、数据验证、性能和数据转换等方面的不同，从而选择最适合你项目的工具。
 top_img:

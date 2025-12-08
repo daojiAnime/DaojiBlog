@@ -14,7 +14,7 @@ toc: true
 toc_number: true
 abbrlink: 59343
 date: 2023-06-19 20:15:43
-updated:
+updated: 2025-12-08
 keywords: Go, Golang, 数组, 切片, Slice, Array, Channel, 继承, Go面试题, 值传递, 引用传递, 切片扩容
 description: 本文深入剖析了 Golang 面试中常见的核心知识点，包括数组与切片的区别、值传递与引用传递、切片的底层实现、扩容机制及常见陷阱。同时详细解答了对已关闭 Channel 的读写操作，以及 Go 语言如何通过结构体嵌套和接口实现继承。
 top_img:

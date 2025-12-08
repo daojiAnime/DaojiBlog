@@ -8,14 +8,14 @@ tags:
 toc: false
 abbrlink: 56521
 date: 2018-06-28 21:30:00
-updated:
+updated: 2025-12-08
 categories:
   - Linux
   - 系统管理
 description: 详细介绍在Linux系统中安装和使用Crontab的方法。内容包括vixie-cron和crontabs软件包的安装，crond服务的启动、停止、重启等管理操作，以及如何设置开机自启动和配置周期性执行的cron jobs。
 keywords: Linux, Crontab, cron, crond, 定时任务, 计划任务, 系统管理
 ---
-![](https://tva1.sinaimg.com/large/e3bf8736ly1fypzllrsn1j21250pfhdt.jpg)
+![Crontab 定时任务管理](https://tva1.sinaimg.com/large/e3bf8736ly1fypzllrsn1j21250pfhdt.jpg)
 
 <!--more-->
 

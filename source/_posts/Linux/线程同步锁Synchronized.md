@@ -15,7 +15,7 @@ categories:
 description: 本文通过一个简单的Java代码示例，演示了`synchronized`关键字在多线程编程中的基本用法，用于解决并发场景下的线程安全问题，确保共享变量的原子性操作。
 keywords: Java, 多线程, 线程同步, Synchronized, 并发编程, 线程安全, 同步锁
 ---
-![](https://ws1.sinaimg.cn/large/e3bf8736gy1fyqgc51a2lj22401eo156.jpg)
+![Java 多线程同步机制](https://ws1.sinaimg.cn/large/e3bf8736gy1fyqgc51a2lj22401eo156.jpg)
 <!--more-->
 
 # 线程同步锁Synchronized

@@ -10,7 +10,7 @@ toc: true
 toc_number: true
 abbrlink: 60917
 date: 2024-03-07 11:14:02
-updated:
+updated: 2025-12-08
 keywords: GPT, Transformer, LLM, 预训练, 监督微调, SFT, RLHF, 奖励建模, AI助手, token, 上下文长度
 description: 本文详细分享了构建 GPT 模型的技术知识。从有限状态马尔可夫链的基础概念入手，深入讲解了 Transformer 架构的演进、自编码与自回归模型的区别，并系统阐述了训练一个 AI 助手的四个核心阶段：预训练、监督微调（SFT）、奖励建模和从人类反馈中强化学习（RLHF）。
 top_img:

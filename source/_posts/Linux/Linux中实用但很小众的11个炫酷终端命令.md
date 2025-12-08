@@ -10,7 +10,7 @@ tags:
   - ranger
 abbrlink: 44609
 date: 2020-04-29 11:34:45
-updated:
+updated: 2025-12-08
 categories:
   - Linux
   - 命令行

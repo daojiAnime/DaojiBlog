@@ -880,7 +880,7 @@ post_meta:
     # Choose: date / relative
     date_format: date
     categories: true
-    tags: false
+    tags: true
     label: true
   post:
     # Choose: left / center
@@ -1179,7 +1179,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -1484,8 +1484,8 @@ ad:
 site_verification:
   # - name: google-site-verification
   #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+  - name: baidu-site-verification
+    content: codeva-QouHCbA5wp
 
 # --------------------------------------
 # Beautify / Effect
@@ -1740,26 +1740,26 @@ snackbar:
 
 # Instant.page
 # https://instant.page/
-instantpage: false
+instantpage: true
 
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder: /img/loading.gif
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: false
-  manifest:
-  apple_touch_icon:
-  favicon_32_32:
-  favicon_16_16:
+  enable: true
+  manifest: /manifest.json
+  apple_touch_icon: /assets/favicon.ico
+  favicon_32_32: /assets/favicon.ico
+  favicon_16_16: /assets/favicon.ico
   mask_icon:
 
 # Open graph meta tags
@@ -1767,7 +1767,7 @@ pwa:
 Open_Graph_meta:
   enable: true
   option:
-    # twitter_card:
+    twitter_card: summary_large_image
     # twitter_image:
     # twitter_id:
     # twitter_site:

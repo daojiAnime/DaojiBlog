@@ -9,14 +9,14 @@ tags:
 toc: false
 abbrlink: 43991
 date: 2018-06-28 19:29:00
-updated:
+updated: 2025-12-08
 categories:
   - Linux
   - 服务器
 description: 本文介绍了在CentOS 7上安装和配置SSH服务的详细步骤，包括启动sshd服务、使用密码登录，并重点讲解了如何通过生成和配置公私密钥对来实现安全的SSH免密码登录，提高服务器管理效率。
 keywords: Linux, CentOS, SSH, sshd, 免密登录, 公钥认证, ssh-keygen, ssh-copy-id
 ---
-![](https://ws1.sinaimg.cn/large/e3bf8736ly1fypzqdtamej21l8123qv7.jpg)
+![SSH 服务器远程连接](https://ws1.sinaimg.cn/large/e3bf8736ly1fypzqdtamej21l8123qv7.jpg)
 <!--more-->
 
 ### VPS上可能没有安装桌面，但一般来说都会安装ssh，并且防火墙默认开放22端口。
