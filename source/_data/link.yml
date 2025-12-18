@@ -1,24 +1,50 @@
-- class_name: 友情鏈接
-  class_desc: 那些人，那些事
+# 友链配置
+# 如需交换友链，请在评论区留言或发邮件至 daoji.chang@gmail.com
+
+- class_name: 技术博客
+  class_desc: 优质技术内容分享
   link_list:
+    - name: 阮一峰的网络日志
+      link: https://www.ruanyifeng.com/blog/
+      avatar: https://www.ruanyifeng.com/blog/images/person2_s.jpg
+      descr: 科技爱好者周刊作者
+    - name: 廖雪峰的官方网站
+      link: https://www.liaoxuefeng.com/
+      avatar: https://www.liaoxuefeng.com/files/attachments/1588575715234881/l
+      descr: Python/Git/JavaScript 教程
+    - name: 酷壳 CoolShell
+      link: https://coolshell.cn/
+      avatar: https://coolshell.cn/wp-content/uploads/2010/12/February-February.png
+      descr: 陈皓的技术博客
+
+- class_name: AI/LLM 资源
+  class_desc: 人工智能学习资源
+  link_list:
+    - name: Hugging Face
+      link: https://huggingface.co/
+      avatar: https://huggingface.co/front/assets/huggingface_logo.svg
+      descr: AI 模型和数据集平台
+    - name: LangChain
+      link: https://www.langchain.com/
+      avatar: https://avatars.githubusercontent.com/u/126733545
+      descr: LLM 应用开发框架
+    - name: OpenAI
+      link: https://openai.com/
+      avatar: https://openai.com/favicon.ico
+      descr: ChatGPT 开发者
+
+- class_name: 开发工具
+  class_desc: 提升效率的好工具
+  link_list:
+    - name: GitHub
+      link: https://github.com/
+      avatar: https://github.githubassets.com/favicons/favicon.svg
+      descr: 全球最大代码托管平台
     - name: Hexo
-      link: https://hexo.io/zh-tw/
+      link: https://hexo.io/zh-cn/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、簡單且強大的網誌框架
-
-- class_name: 網站
-  class_desc: 值得推薦的網站
-  link_list:
-    - name: Youtube
-      link: https://www.youtube.com/
-      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
-      descr: 視頻網站
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
-      descr: 中國最大社交分享平台
-    - name: Twitter
-      link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
-
+      descr: 快速、简洁的博客框架
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/favicon.png
+      descr: 本站使用的 Hexo 主题

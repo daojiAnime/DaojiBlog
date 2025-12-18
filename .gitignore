@@ -10,3 +10,4 @@ public/
 # 自定义
 themes/butterfly-backup/
 db.json
+.serena/

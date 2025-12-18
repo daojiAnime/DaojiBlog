@@ -11,15 +11,10 @@ author: Daoji
 language: zh-CN
 timezone: Asia/Shanghai
 email: daoji.chang@gmail.com
-# ExtensionsPlugins:
+# Extensions/Plugins:
 # - hexo-generator-feed
 # - hexo-generator-sitemap
- 
-Feed Atomfeed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  
+
 sitemap:
   path: sitemap.xml
 
